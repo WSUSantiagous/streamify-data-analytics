@@ -106,5 +106,4 @@ Buenas. Aquí está la información pedida y sintetizada:
 
 Quedo atento a cualquier ajuste o detalle adicional que necesites 
 para la presentación al comité creativo. ¡Éxitos en la reunión!
-
 */
