@@ -12,9 +12,9 @@ WITH fecha_incorrecta AS(
 	SELECT 
 		u.user_id,
 		u.register_date,
-		u.register_date,
+		s.subscription_date,
 		CASE 
-			WHEN u.register_date <= u.register_date THEN 'Correcto'
+			WHEN u.register_date <= s.subscription_date THEN 'Correcto'
 			ELSE 'Incorrecto'
 		END AS corroboracion
 	FROM users AS u
