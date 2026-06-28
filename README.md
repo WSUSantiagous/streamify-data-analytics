@@ -280,6 +280,28 @@ WHERE ranking <= 1;
 
 Esta consulta usa `DENSE_RANK()` para ordenar los títulos dentro de cada género según sus minutos totales reproducidos.
 
+
+:::writing{variant="document" id="58291"}
+## Power BI Dashboard
+
+El proyecto también incluye un dashboard desarrollado en Power BI para visualizar los principales indicadores de Streamify.
+
+El dashboard está dividido en dos páginas:
+
+- **Resumen Ejecutivo:** ingresos activos, dinero perdido, total de reproducciones, usuarios activos sin reproducción, ingresos por método de pago y top 5 contenidos por horas reproducidas.
+- **Consumo y Usuarios:** promedio de minutos reproducidos por género, reproducciones por tipo de contenido y dispositivos más usados por usuarios activos.
+
+### Resumen Ejecutivo
+
+![Resumen Ejecutivo](assets/dashboard_resumen.png)
+
+### Consumo y Usuarios
+
+![Consumo y Usuarios](assets/dashboard_consumo.png)
+
+El archivo original de Power BI se encuentra en la carpeta `powerbi/streamify_dashboard.pbix`.
+:::
+
 ---
 
 ## Cómo ejecutar el proyecto
