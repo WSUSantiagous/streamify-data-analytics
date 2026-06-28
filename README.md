@@ -281,7 +281,6 @@ WHERE ranking <= 1;
 Esta consulta usa `DENSE_RANK()` para ordenar los títulos dentro de cada género según sus minutos totales reproducidos.
 
 
-:::writing{variant="document" id="58291"}
 ## Power BI Dashboard
 
 El proyecto también incluye un dashboard desarrollado en Power BI para visualizar los principales indicadores de Streamify.
@@ -300,7 +299,6 @@ El dashboard está dividido en dos páginas:
 ![Consumo y Usuarios](assets/dashboard_consumo.png)
 
 El archivo original de Power BI se encuentra en la carpeta `powerbi/streamify_dashboard.pbix`.
-:::
 
 ---
 
